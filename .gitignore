@@ -9,11 +9,14 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Model weights & large artifacts
+# Model weights
 *.pt
 *.pth
 
-# Node modules (if anytime added)
+# Dataset folder 
+dataset
+
+# Node modules
 node_modules/
 
 # IDE & OS files
@@ -25,3 +28,7 @@ node_modules/
 uploads/
 results/
 runs/
+
+# Flask / Django specific (optional)
+instance/
+*.sqlite3
